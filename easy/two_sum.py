@@ -9,6 +9,11 @@
 #Because nums[0] + nums[1] = 2 + 7 = 9,
 #return [0, 1].
 
+# consider two level:
+#   level1: list is sorted
+#   level2: if list is not sorted
+
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
